@@ -126,6 +126,7 @@ script.
     isPhotoFigcaption: !{theme.photofigcaption},
     islazyload: !{theme.lazyload.enable},
     isanchor: !{theme.anchor}
+    hexoVersion: '!{hexoVersion()}'
   };
 
   var saveToLocal = {
@@ -153,8 +154,9 @@ script.
         return undefined
       }
       return item.value
-    }
-  }
+    },
 
+
+  }
 
 

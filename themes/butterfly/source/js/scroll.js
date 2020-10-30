@@ -1,9 +1,10 @@
 $(function () {
   var initTop = 0
   $('.toc-child').hide()
-
+debugger
   // main of scroll
   $(window).scroll(throttle(function (event) {
+    debugger
     var currentTop = $(this).scrollTop()
     if (!isMobile()) {
       // percentage inspired by hexo-theme-next
@@ -145,9 +146,9 @@ $(function () {
       $('.toc-link').removeClass('active')
       $('.toc-child').hide()
     }
-
     // fix #286 since hexo v5.0.0 will
     // encodeURI the toc-item href
+    debugger
     var hexoVersion = GLOBAL_CONFIG.hexoVersion[0]
 
     if (hexoVersion === '5') {
