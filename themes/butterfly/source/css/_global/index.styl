@@ -215,3 +215,19 @@ img:not([src])
 .ad-height
   display: block !important
   height: auto !important
+
+#toggle-sidebar
+  position: fixed
+  bottom: $sidebar-icon-top
+  left: $sidebar-icon-left
+  z-index: 100
+  font-size: $sidebar-icon-size
+  cursor: pointer
+
+@media screen and (max-width: $bg)
+  i#toggle-sidebar,
+  #sidebar
+    display: none
+
+  body
+    padding-left: 0 !important

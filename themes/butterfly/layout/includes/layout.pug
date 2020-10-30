@@ -12,7 +12,11 @@ html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside
     if theme.background
       #web_bg
       
-    !=partial('includes/sidebar', {}, {cache:theme.fragment_cache})
+    if is_post()
+      i.fa.fa-arrow-right#toggle-sidebar(aria-hidden="true")
+      !=partial('includes/sidebar1', {}, {cache:theme.fragment_cache})
+    else
+      !=partial('includes/sidebar', {}, {cache:theme.fragment_cache})
 
     #body-wrap
       include ./header/index.pug
@@ -40,5 +44,13 @@ html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside
     include ./rightside.pug
     !=partial('includes/third-party/search/index', {}, {cache:theme.fragment_cache})
     include ./additional-js.pug
-<!-- 页面点击小红心 -->
-<script type="text/javascript" src="/js/love.js"></script>
+
+    each item in theme.cdn.js
+      if item !== undefined
+        script(src=url_for(item))
+    if theme.scripts !== undefined && theme.scripts.length > 0
+      //- scripts list from config.yml
+      each url in theme.scripts
+        script(src=url_for(url) + '?version=' + version())
+    if is_post()
+      script(src=url_for(theme.CDN.toc_js) defer)

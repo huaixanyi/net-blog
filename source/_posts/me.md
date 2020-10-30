@@ -9,6 +9,8 @@ categories:
     - 教程
     - Hexo
 cover: https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-post-cover-show.png
-toc: true
-toc_number: true        
+toc: false
+toc_number: true    
+aside: false    
+author: HXY
 ---

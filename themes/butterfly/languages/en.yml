@@ -112,3 +112,12 @@ loading: Loading...
 error404:
   error_title: Page not found
   back_button: Go back home
+
+sidebar:
+  articles: Articles
+  tags: Tags
+  categories: Categories
+  toggle_site: Toggle site
+  toggle_article: Toggle article
+  catalog: Catalog
+  have_read: You've read

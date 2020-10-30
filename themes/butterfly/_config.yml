@@ -87,7 +87,7 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img:
+  img: /img/favicon.png
   effect: false
 
 # The banner image of home page
@@ -920,6 +920,8 @@ CDN:
 
   artitalk: https://cdn.jsdelivr.net/npm/artitalk
 
+  toc_js: /js/transition.js
+  toc_css: /js/transition.js
 
 live2d:
   enable: true
@@ -932,3 +934,23 @@ live2d:
     height: 300      #模型高度
   mobile:
     show: false      #是否在手机端显示
+
+scripts:
+  - /js/utils.js
+  - /js/fancybox.js
+  - /js/sidebar.js
+  - /js/copy.js
+  - /js/fireworks.js
+  - /js/scroll.js
+  - /js/head.js
+
+cdn:
+  css:
+    fontawesome: https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css
+    # fontawesomeV5: https://use.fontawesome.com/releases/v5.3.1/css/all.css
+  js:
+    anime: https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js
+    jquery: https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js
+    fancybox: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js
+    velocity: https://cdn.jsdelivr.net/npm/velocity-animate@latest/velocity.min.js
+    velocity-ui: https://cdn.jsdelivr.net/npm/velocity-ui-pack@latest/velocity.ui.min.js
