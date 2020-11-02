@@ -1,8 +1,7 @@
 if theme.menu
   //- for mobile sidebar
   - let sidebarChildHide = theme.hide_sidebar_menu_child ? 'hide' : ''
-
-  .menus_items
+  .menus_items.menus.toggle-menu
     each value, label in theme.menu
       if !Array.isArray(value)
         .menus_item
