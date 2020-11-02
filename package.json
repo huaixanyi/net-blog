@@ -6,7 +6,7 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "rm db.json && hexo server"
+    "server": "hexo clean && hexo server"
   },
   "hexo": {
     "version": "5.2.0"
