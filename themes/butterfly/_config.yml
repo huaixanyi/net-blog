@@ -19,7 +19,7 @@ menu:
   关于: /about/ || fa fa-heart
 
 # Hide the child menu items in mobile sidebar
-hide_sidebar_menu_child: false
+hide_sidebar_menu_child: true
 
 auto_open_sidebar:
   enable: true
@@ -608,7 +608,7 @@ aside:
   enable: true
   hide: false
   button: true
-  mobile: true # display on mobile
+  mobile: false # display on mobile
   position: right # left or right
   card_author:
     enable: true
@@ -1009,7 +1009,7 @@ slide:
 
 # Footer Settings
 # ---------------
-since: 2013
+since: 2020
 
 # footer_custom_text: put custom text directly or put hitokoto to fetch random texts
 
