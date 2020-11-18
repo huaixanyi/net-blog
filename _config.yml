@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: HXY'S BLOGS
-subtitle: ''
-description: ''
+title: Hua Xian Yi
+subtitle: 'No accident in the world. All the miracles and happiness are created by ourselves.'
+description: 'Hua Xian Yi Blog'
 keywords:
-author: 画仙衣
+author: Hua Xian Yi
 language: zh-CN
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://www.huaxianyi.com
+url: https://blog.huaxianyi.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
