@@ -18,7 +18,7 @@ categories:
 > MinIO是一个非常轻量的服务,可以很简单的和其他应用的结合，类似 NodeJS, Redis 或者 MySQL。
 > 相对于FastDFS,部署简单,有UI界面,MinIO号称是世界上速度最快的对象存储服务器
 
-### 快速开始 本文使用系统CentOS Linux 7 (Core) x86_64
+### 本文使用系统CentOS Linux 7 (Core) x86_64
 ---
 本文是Minio的简单使用，更多相关文档请至Minio官网查阅
 [Minio 官方文档](https://docs.min.io/).
